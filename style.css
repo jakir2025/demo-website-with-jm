@@ -1,0 +1,86 @@
+body {
+    font-family: "Open Sans", serif;
+}
+
+.navber-bg-color {
+    top: 0;
+    background-color: #7d7dea;
+    position: sticky;
+    z-index: 2;
+
+}
+
+.banner-container {
+    background-image: url(img/Banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.about-container {
+    background-color: #000033;
+}
+
+.education-container {
+    background-color: #7d7dea;
+}
+
+.circle-edu {
+    background-color: #70ce18;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.project-container {
+    background-color: rgb(9, 56, 56);
+}
+
+.portfolio-container{
+    background-color: #11a184;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.gallery-container{
+    background-color: #70ce18;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.contact-container{
+    background-color: rgb(42, 40, 37);
+}
+.inner-form{
+    background-color: #7d7dea;
+}
+.self-container{
+    background-color: #000033;
+}
+.footer-container{
+    background-color: rgb(74, 63, 63);
+}
+.circle-follow{
+    /* background-color: #656863; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+   font-size: 40px;
+    color: aqua;
+}
+.circle-follow:hover{
+    background-color: #000033;
+}
